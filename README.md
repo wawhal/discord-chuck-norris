@@ -59,6 +59,12 @@ $ git push hasura master
 
 Type `!joke` in the server chat and see the magic :)
 
+## Modification
+
+This project can also be used as a starter for building more complex Discord bots. The source code for the bot lies in the `microservices/bot/app/src/` directory.
+
+You might also want to look at the Dockerfile and the k8s.yaml at `microservices/bot/` if you are to add some extra packages or environment variables.
+
 ## References
 
 1. Special thanks to "bwmarrin" for the [discord bindings for golang](https://github.com/bwmarrin/discordgo).
