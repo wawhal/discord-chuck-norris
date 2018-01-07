@@ -58,3 +58,8 @@ $ git push hasura master
 ## Usage
 
 Type `!joke` in the server chat and see the magic :)
+
+## References
+
+1. Special thanks to "bwmarrin" for the [discord bindings for golang](https://github.com/bwmarrin/discordgo).
+2. Built on top of Hasura boilerplate [hello-golang-raw](https://hasura.io/hub/project/hasura/hello-golang-raw).
