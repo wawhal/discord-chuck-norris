@@ -12,18 +12,18 @@ This is a Discord Chuck Norris bot that returns you a Chuck Norris joke when ask
 ### Get the project
 
 ```
-$ hasura quickstart rishi/discord-chuck-norris
+$ hasura quickstart rishi/discord-golang-bot
 ```
 
 ### Create a webhook to send messages on your channel
 
 1. Go to your Discord server.
 
-2. Click on the down array next to your server name and click on `Server Settings`.
+2. Click on the down arrow next to your server name and click on `Server Settings`.
 
 3. Select the `Webhooks` section from the left pannel. Create a webhook.
 
-4. Copy the Webhook URL and add it to project secrets since it contains
+4. Copy the Webhook URL and add it to project secrets since it contains a secret token that you do not want to explicitly mention in the code.
 
 ```
 $ hasura secret update discord.webhook <webhook_url>
@@ -31,13 +31,15 @@ $ hasura secret update discord.webhook <webhook_url>
 
 ### Create a bot on discord
 
-1. Login to Discord and [create an application](https://discordapp.com/developers/applications/me).
+1. [Create an application](https://discordapp.com/developers/applications/me).
 
 2. Now, in your application home page, scroll down to `Bots` and create a bot.
 
 3. Make the bot public.
 
 4. Make sure that the `Require OAuth2 Code Grant` checkbox is not checked.
+
+5. Add the bot to your server by clicking on `Generate OAuth URL` and navigating to the generated URL from the browser.
 
 5. Copy the bot token and add it to the project secrets.
 
@@ -55,4 +57,4 @@ $ git push hasura master
 
 ## Usage
 
-Type `!joke` in the server chat and see the magic :) 
+Type `!joke` in the server chat and see the magic :)
