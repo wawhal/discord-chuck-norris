@@ -1,0 +1,1 @@
+/go/Bot/ -t $DISCORD_BOT_TOKEN

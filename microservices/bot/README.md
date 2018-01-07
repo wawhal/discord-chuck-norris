@@ -1,0 +1,2 @@
+- Drop your source in `app/src`
+- Modify the Dockerfile as you like
