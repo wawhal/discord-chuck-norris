@@ -3,6 +3,8 @@
 
 This is a Discord Chuck Norris bot that returns you a Chuck Norris joke when asked for. Integrate it with your Discord server in under five minutes.
 
+![App GIF](https://media.giphy.com/media/l0HUoCAP0c9TjZY5O/giphy.gif)
+
 ## Requirements
 
 1. [hasura CLI tool](https://docs.hasura.io/0.15/manual/install-hasura-cli.html)
