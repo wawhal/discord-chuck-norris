@@ -10,6 +10,7 @@ This is a Discord Chuck Norris bot that returns you a Chuck Norris joke when ask
 1. [hasura CLI tool](https://docs.hasura.io/0.15/manual/install-hasura-cli.html)
 2. A Discord server
 
+
 ## Setup Guide
 
 ### Get the project
