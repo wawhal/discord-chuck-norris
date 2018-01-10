@@ -1,1 +1,0 @@
-/tmp/rishi_discord-golang-bot_1515489699/microservices/bot/app/src/.#Bot.go

@@ -1,7 +1,7 @@
 description: A discord bot that returns a Chuck Norris joke when asked for it.
 gitUrl: https://github.com/wawhal/discord-chuck-norris
 keywords: bot, discord, chatbot, chuck norris, joke
-media: 
+media:
   images:
     - https://media.giphy.com/media/l0HUoCAP0c9TjZY5O/giphy.gif
 name: discord-golang-bot

@@ -10,7 +10,7 @@ This is a Discord Chuck Norris bot that returns you a Chuck Norris joke when ask
 1. [hasura CLI tool](https://docs.hasura.io/0.15/manual/install-hasura-cli.html)
 2. A Discord server
 
-## Setup guide
+## Setup Guide
 
 ### Get the project
 
@@ -64,9 +64,9 @@ Type `!joke` in the server chat and see the magic :)
 
 ## Modification
 
-This project can also be used as a starter for building more complex Discord bots. The source code for the bot lies in the `microservices/bot/app/src/` directory.
+This project can also be used as a starter for building more complex Discord bots. The source code for the bot lies in the ``microservices/bot/app/src/`` directory.
 
-You might also want to look at the Dockerfile and the k8s.yaml at `microservices/bot/` if you are to add some extra packages or environment variables.
+You might also want to look at the `Dockerfile` and the `k8s.yaml` at ``microservices/bot/`` if you are to add some extra packages or environment variables.
 
 ## References
 
